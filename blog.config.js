@@ -34,4 +34,12 @@ module.exports = {
     logoURL: '/assets/logo.svg',
     footerText: description
   },
+  headerMenu: {
+    navItems: [
+      { name: 'Dashboard', href: '/' },
+      { name: 'Team', href: '#' },
+      { name: 'Projects', href: '#' },
+      { name: 'Calendar', href: '#' },
+    ]
+  }
 };

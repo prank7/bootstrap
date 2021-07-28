@@ -6,12 +6,7 @@ import Link from 'next/link';
 
 import blogConfig from '../blog.config';
 
-const navigation = [
-  { name: 'Dashboard', href: '/' },
-  { name: 'Team', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Calendar', href: '#' },
-]
+const navigation = blogConfig.headerMenu.navItems;
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
