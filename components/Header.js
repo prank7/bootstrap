@@ -25,7 +25,7 @@ export default function Header() {
             <div className="relative flex items-center justify-between h-16">
               <div className="flex-1 flex items-center sm:items-stretch sm:justify-between">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
+                  {/* <img
                     className="block lg:hidden h-8 w-auto"
                     src={logoURL}
                     alt={siteName}
@@ -34,7 +34,8 @@ export default function Header() {
                     className="hidden lg:block h-8 w-auto"
                     src={logoURL}
                     alt={siteName}
-                  />
+                  /> */}
+                  <nav className="text-primary-700 text-2xl font-bold ">{siteName}</nav>
                 </div>
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
